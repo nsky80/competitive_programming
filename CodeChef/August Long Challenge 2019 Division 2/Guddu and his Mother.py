@@ -1,4 +1,6 @@
 """
+Running time of this implementation is more than expected......
+
 Problem Code: KS1
 
 Example Input
