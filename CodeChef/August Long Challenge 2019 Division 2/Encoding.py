@@ -1,6 +1,8 @@
 """
 Encoding Problem Code: ENCODING
 
+Resource: https://codeforces.com/blog/entry/53960
+Editorial found at: https://discuss.codechef.com/tags/aug19/
 Example Input
 3
 1 9
@@ -38,8 +40,8 @@ def find_num(l, nl, r, nr):
 
 
 if __name__ == '__main__':
-    # for _ in range(int(input())):
-    #     nl, l = map(int, input().strip().split())
-    #     nr, r = map(int, input().strip().split())
-    #     print(find_num(l, nl, r, nr))
-    print(f(1120))
+    for _ in range(int(input())):
+        nl, l = map(int, input().strip().split())
+        nr, r = map(int, input().strip().split())
+        print(find_num(l, nl, r, nr))
+    # print(f(1120))
